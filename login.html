@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Marry- Login</title>
+    <style>
+      body{
+        background-image: url(login.jpg);
+        background-size:cover;
+        overflow-y: scroll;
+      }  
+      .loginpage{
+        width: 340px;
+        height: 450px;
+        background: #fff;
+        color:#000;
+        top: 50%;
+        left: 50%;
+        position: fixed;
+        transform: translate(50%,50%);
+        box-sizing: border-box;
+        padding: 70px 20px;
+
+      }
+      .avatar{
+        width:100px ;
+        height:100px;
+        border-radius: 50%;
+        position:absolute;
+        top: -50px;
+        left: calc(50% - 50px);
+
+      }
+      h1{
+        margin:0;
+        padding: 0 0 20px;
+        text-align: center;
+        font-size: 22px;
+
+      }
+      .loginpage p{
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+      }
+      .loginpage input{
+        width: 100%;
+        margin-bottom: 20px;
+
+      }
+      .loginpage input[type="text"], input[type="password"]
+      {
+        border: none;
+        border-bottom: 1px solid #000;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: black;
+        font-size: 16px;
+      }
+      .loginpage input[type="submit"]
+      {
+        border:none;
+        outline: none;
+        height: 40px;
+        background: #fb2525;
+        color:white;
+        font-size: 18px;
+        border-radius: 20px;
+      }
+      .loginpage input[type="submit"]:hover
+      {
+        cursor: pointer;
+        color:#fff;
+      }
+      .loginpage a{
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 20px;
+        color:#ff3131;
+      } 
+    </style>
+</head>
+<body>
+    <div class="loginpage">
+        <img src="avatar.jpg" class="avatar">
+        <h1>Login Here</h1>
+        <form>
+            <p>Username</p>
+            <input type="text" name="" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="" placeholder="Enter Password">
+            <input type="submit" name="" value="Login">
+            <a href="#">Forgot Password?</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="signup.html">Don't Have An Account</a>
+        </form>
+    </div>
+</body>
+</html>
